@@ -1,0 +1,48 @@
+.saidbar{
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  }
+.saidbarwraper{
+    padding: 10px;
+}
+.saidbarlistitem{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.saidbarlistitem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.saidbaricon{
+    margin-right: 15px;
+}
+.saidbarbutton {
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  .saidbarhr {
+    margin: 20px 0;
+  }
+  .saidbarfriendlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+ 

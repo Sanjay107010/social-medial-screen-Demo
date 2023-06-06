@@ -1,0 +1,28 @@
+.righbarfriens{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .rightbarprofileimgcontainer{
+    margin-right: 10px;
+    position: relative;
+  }
+  .rightbarprofileimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .ribaronline{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color:rgb(7, 105, 59);
+    position: absolute;
+    top: -2px;
+    right: 0 ;
+    border: 2px solid white;
+  }
+  .righbarusername{
+    font-weight: 500;
+  }

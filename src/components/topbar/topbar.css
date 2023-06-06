@@ -1,0 +1,91 @@
+.topbarContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #6d98d1;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  .topnarLeft {
+flex: 3;
+
+
+  }
+  .topbarRight {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+   
+
+  }
+  .topbarlink{
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .topbaricons{
+    display: flex;
+  }
+  .topbariconitem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+
+  }
+  .topbariconbage{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(160, 95, 125);
+    border-radius: 50%;
+    color: aliceblue;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .topbarCenter{
+    flex: 4;
+   
+
+  }
+  .topbarImg{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+
+  }
+  .logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  .searchbar{
+    width: 100%;
+    height: 32px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .searchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+  }
+  .searchinput{
+    border: none;
+    width: 70%;
+  }
+  .searchinput:focus{
+    outline: none;
+  }
